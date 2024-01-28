@@ -21,5 +21,10 @@ namespace ProjektSM2.Views
 
 			await Navigation.PushAsync(new ChoosePage());
 		}
+		private async void OnNavigateToAddPageClicked(object sender, EventArgs e)
+		{
+
+			await Navigation.PushAsync(new NewQuestionPage());
+		}
 	}
 }

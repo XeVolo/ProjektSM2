@@ -39,7 +39,11 @@
                         Clicked="OnNavigateToChoosePageClicked"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" />
-                
+                <Button Margin="0,10,0,0" Text="Dodaj własne pytanie"
+                        Clicked="OnNavigateToAddPageClicked"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
+
 
 
 
