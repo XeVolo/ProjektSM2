@@ -28,6 +28,16 @@
                        TextColor="White"
                        FontSize="40"
                        />
+                    <CollectionView x:Name="collectionView">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <Label Text="{Binding question}"
+                                           FontSize="Medium"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
                 </StackLayout>
 
                 <Button Margin="0,10,0,0" Text="ans1"
