@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace ProjektSM2.Views
+{
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class WritePage : ContentPage
+	{
+		public WritePage()
+		{
+			InitializeComponent();
+		}
+		private void CheckButtonClick(object sender, EventArgs e)
+		{
+			if (sender is Button clickedButton)
+			{
+
+
+			}
+		}
+	}
+}

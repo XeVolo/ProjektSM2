@@ -11,5 +11,15 @@ namespace ProjektSM2.Views
 		{
 			InitializeComponent();
 		}
+		private async void OnNavigateToWritePageClicked(object sender, EventArgs e)
+		{
+			
+			await Navigation.PushAsync(new WritePage());
+		}
+		private async void OnNavigateToChoosePageClicked(object sender, EventArgs e)
+		{
+
+			await Navigation.PushAsync(new ChoosePage());
+		}
 	}
 }
