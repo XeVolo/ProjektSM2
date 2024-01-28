@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using SQLite;
 
 namespace ProjektSM2.Models
 {
-	public class WriteModel
+    public class WriteModel
 	{
+		[PrimaryKey, AutoIncrement]
 		public int id { get; set; }
 		public string question { get; set; }
 		public string answer { get; set; }
