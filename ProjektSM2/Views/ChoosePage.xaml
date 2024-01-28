@@ -20,20 +20,17 @@
 
 
                 <StackLayout>
-                    <Label Text="Pytanie "
-                       Padding="30,24,30,24"
-                       VerticalOptions="CenterAndExpand" 
-                       HorizontalOptions="CenterAndExpand"
-                       FontAttributes="Bold"
-                       TextColor="White"
-                       FontSize="40"
-                       />
                     <CollectionView x:Name="collectionView">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
                                 <StackLayout>
-                                    <Label Text="{Binding question}"
-                                           FontSize="Medium"/>
+                                    <Label Text="{Binding Question}"
+                                            Padding="30,24,30,24"
+                                            VerticalOptions="CenterAndExpand" 
+                                            HorizontalOptions="CenterAndExpand"
+                                            FontAttributes="Bold"
+                                            TextColor="White"
+                                            FontSize="40"/>
                                 </StackLayout>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
