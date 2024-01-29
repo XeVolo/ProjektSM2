@@ -61,7 +61,6 @@ namespace ProjektSM2.Views
             Question.Text = currentWrite.Question;
 
             List<string> choices = new List<string>();
-            index = GetRandom();
             choices.Add(items[index].Answer);
             choices.Add(items[index].Incorrectans1);
             choices.Add(items[index].Incorrectans2);
