@@ -10,7 +10,7 @@ namespace ProjektSM2.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ChoosePage : ContentPage
 	{
-		List<WriteModel> items = new List<WriteModel>();
+		private List<WriteModel> items = new List<WriteModel>();
 		public ChoosePage()
 		{
 			InitializeComponent();
