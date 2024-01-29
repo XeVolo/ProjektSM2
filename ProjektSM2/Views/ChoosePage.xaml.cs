@@ -28,6 +28,18 @@ namespace ProjektSM2.Views
         {
             if (sender is Button clickedButton)
             {
+                string ans = clickedButton.Text.ToString();
+                bool correctness = ans.Equals(items[index].Answer);
+                if (correctness)
+                {
+
+                    DisplayAlert("Brawo", "Odpowiedź poprawna", "OK");
+                    NewSet();
+                }
+                else
+                {
+                    DisplayAlert("Niestety", "Odpowiedź błędna", "OK");
+                }
 
             }
         }
