@@ -29,7 +29,6 @@ namespace ProjektSM2.Views
             if (sender is Button clickedButton)
             {
 
-
             }
         }
         private int GetRandom()
@@ -45,7 +44,7 @@ namespace ProjektSM2.Views
 
             while (numbers.Count < count)
             {
-                int liczba = rnd.Next(0, 3);
+                int liczba = rnd.Next(0, 4);
                 if (!numbers.Contains(liczba))
                 {
                     numbers.Add(liczba);
