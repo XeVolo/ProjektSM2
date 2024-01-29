@@ -17,19 +17,18 @@
             </StackLayout>
         </StackLayout>
         <StackLayout Spacing="3" Padding="15" Margin="0,150,0,0">
-            <Label Text="Pytanie" FontSize="Medium" />
+            <Label Text="Pytanie" FontSize="Large" TextColor="White" />
             <Entry x:Name="questionEntry" Placeholder="Wpisz pytanie" />
-            <Label Text="Odpowiedź" FontSize="Medium" />
+            <Label Text="Odpowiedź" FontSize="Large" TextColor="White" />
             <Entry x:Name="ansEntry" Placeholder="Wpisz poprawną odpowiedź" />
-            <Label Text="Niepoprawna odpowiedź1" FontSize="Medium" />
+            <Label Text="Niepoprawna odpowiedź" FontSize="Large" TextColor="White" />
             <Entry x:Name="inAns1Entry" Placeholder="Wpisz niepoprawną odpowiedź" />
-            <Label Text="Niepoprawna odpowiedź2" FontSize="Medium" />
+            <Label Text="Niepoprawna odpowiedź" FontSize="Large" TextColor="White" />
             <Entry x:Name="inAns2Entry" Placeholder="Wpisz niepoprawną odpowiedź" />
-            <Label Text="Niepoprawna odpowiedź3" FontSize="Medium" />
+            <Label Text="Niepoprawna odpowiedź" FontSize="Large" TextColor="White" />
             <Entry x:Name="inAns3Entry" Placeholder="Wpisz niepoprawną odpowiedź" />
             <StackLayout Orientation="Horizontal">
-                <Button Text="Cancel" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
-                <Button Text="Save" Clicked="Button_Clicked" HorizontalOptions="FillAndExpand"></Button>
+                <Button Text="Dodaj" Clicked="Button_Clicked" HorizontalOptions="FillAndExpand"></Button>
             </StackLayout>
         </StackLayout>
     </Grid>
