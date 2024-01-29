@@ -21,7 +21,10 @@
 
 
                 <StackLayout>
-                    <Label Text="Pytanie "
+                    
+                    <Label 
+                            x:Name="Question"
+                            Text=""
                            Padding="30,24,30,24"
                            VerticalOptions="CenterAndExpand" 
                            HorizontalOptions="CenterAndExpand"
@@ -31,7 +34,8 @@
                            />
                 </StackLayout>
 
-                <Entry Text="{Binding Text, Mode=TwoWay}" 
+                <Entry x:Name="TextBox"
+                        Text="" 
                        Margin="20"
                        FontSize="Medium" 
                        BackgroundColor="#929292"/>
