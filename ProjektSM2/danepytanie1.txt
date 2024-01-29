@@ -1,0 +1,70 @@
+1;Stolica Polski?;Warszawa;Kraków;Paryż;Londyn;easy
+2;Która planeta jest najbliżej Słońca?;Merkury;Wenus;Mars;Jowisz;hard
+3;Ile wynosi 2 + 2?;4;3;5;6;easy
+4;Autor "Romeo i Julia"?;William Shakespeare;George Orwell;Jane Austen;Charles Dickens;hard
+5;Jaki kolor ma niebo w dzień?;Niebieski;Czerwony;Zielony;Żółty
+6;Ile nóg ma pająk?;8;6;4;10
+7;Gdzie znajduje się Wieża Eiffla?;Paryż;Nowy Jork;Berlin;Londyn
+8;Stolica Hiszpanii?;Madryt;Barcelona;Walencja;Sewilla
+9;Która rzeka jest najdłuższa na świecie?;Nil;Amazonka;Missisipi;Jangcy
+10;Jaki pierwiastek chemiczny to "O"?;Tlen;Wodór;Azot;Cyna
+11;Ile to 2+2*2;6;8;2;4
+12;Kto napisał "Wojna i pokój"?;Lew Tołstoj;Fiodor Dostojewski;Jane Austen;Charles Dickens
+13;Ile kontynentów jest na Ziemi?;7;6;5;8
+14;Która planeta jest nazywana "Czerwoną Planetą"?;Mars;Wenus;Saturn;Jowisz
+15;Co to jest DNA?;Kwas deoksyrybonukleinowy;Skrót od Dyrekcji Naukowej Ameryki;Dokumentacja Narodowego Archiwum Dźwiękowego;Dziedzictwo Narodowe Artystów
+16;Robak po angielsku to?;Worm;Lion;Dog;Cat
+17;Jaki jest najwyższy szczyt na świecie?;Mount Everest;K2;Mount Kilimanjaro;Mont Blanc
+18;Jak nazywa się stolica Włoch?;Rzym;Mediolan;Neapol;Florencja
+19;Które zwierzę jest największe na Ziemi?;Wieloryb;Słoń;Lew;Koń
+20;Kto jest autorem "Zbrodni i kary"?;Fiodor Dostojewski;Leo Tolstoj;Victor Hugo;Charles Dickens
+21;Który gaz jest niezbędny do oddychania?;Tlen;Wodór;Azot;Hel
+22;Jaki kraj jest największy pod względem powierzchni?;Rosja;Kanada;Chiny;Stany Zjednoczone
+23;Który pierwiastek chemiczny oznaczany jest symbolem "H"?;Wodór;Hel;Azot;Węgiel
+24;Co to jest zmierzch?;Zachód Słońca;Moment między dniem a nocą;Poranek;Północ
+25;Jakie zwierzę jest symbolem Australii?;Kangur;Koala;Emu;Wombat
+26;Jaka jest stolica Rosji?;Moskwa;Sankt Petersburg;Nowosybirsk;Kazań
+27;Ile wynosi pierwiastek z 16?;4;3;5;6
+28;Kto jest autorem "Harry Potter"?;J.K. Rowling;Stephen King;George Orwell;J.R.R. Tolkien
+29;Która planeta jest nazywana "Czerwoną Planetą"?;Mars;Wenus;Saturn;Jowisz
+30;Pomidor to?;Owoc;Warzywo;Zwierze;Planeta
+31;Które zwierzę jest maskotką Igrzysk Olimpijskich?;Tygrys;Panda;Orzeł;Lew
+32;Jaki jest największy kontynent na Ziemi?;Azja;Ameryka Północna;Afryka;Europa
+33;Która planeta jest nazywana "Planetą Czerwoną"?;Mars;Wenus;Jowisz;Saturn
+34;Co to jest astronomia?;Naukao kosmosie;Nauka o zwierzętach;Nauka o skórze;Nauka o historii
+35;Jakia jest stolica Kanady?;Ottawa;Toronto;Montreal;Wancouver
+36;Ile nóg ma pająk?;8;6;4;10
+37;Gdzie znajduje się Wielki Kanion Kolorado?;USA;Meksyk;Kanada;Brazylia
+38;Co oznacza skrót HTML?;Hyper Text Markup Language;Home Tool Markup Language;Hyperlink and Text Markup Language;Hyper Tool Madeup Language
+39;Która planeta jest nazywana "Królową Nocy"?;Wenus;Mars;Jowisz;Saturn
+40;Kto napisał "Złodziejka książek"?;Markus Zusak;George Orwell;Jane Austen;Charles Dickens
+41;Ile oczu ma pająk?;8;6;4;10
+42;Ile wierzchołków ma trójkąt?;3;4;5;6
+43;Jakia jest najdłuższy rzeka w Polsce?;Wisła;Odra;Warta;Dniestr
+44;Jaki symbol ma żelazo;Fe;O;C;Au
+45;Jaki jest największy ocean na Ziemi?;Pacyfik;Atlanty
+46;Ile dni ma rok przestępny?;366;365;364;367
+47;Który kraj jest znany jako "Kraina Kwitnącej Wiśni"?;Japonia;Chiny;Korea Południowa;Wietnam
+48;Co oznacza WWW?;World Wide Web;Western Washington World;Whole Wide World;Web World Wonders
+49;Co oznacza termin "Firewall"?;Zapora sieciowa;Urządzenie grzewcze;Rodzaj monitora komputerowego;Typ kabla sieciowego
+50;Jakie znaczenie ma skrót "LAN"?;Local Area Network;Large Access Network;Long Antenna Node;Low Altitude Navigation
+51;Co oznacza "VPN"?;Virtual Private Network;Verified Personal Name;Virtual Product Navigator;Volatile Public Network
+52;Ile wynosi pierwiastek kwadratowy z liczby 144?;12;10;14;16
+53;Jak nazywamy wielokąt o osiemnastu bokach?;Oktadecagon;Dekagon;Heksaheptagon;Pentadecagon
+54;Jak nazywa się linia przecinająca okrąg przez jego środek, dzieląca go na dwie równe części?;Średnica;Promień;Tangent;Styczna
+55;Jaki jest wynik mnożenia 8 przez 7?;56;48;64;42
+56;Ile wynosi sinusa kąta 90 stopni?;1;0;2;-1
+57;Jaki jest pierwiastek kwadratowy z liczby 169?;13;12;15;14
+58;Ile wynosi iloczyn 7 przez 9?;63;54;72;49
+59;Jaka jest suma kątów wewnętrznych trójkąta?;180;90;360;270
+60;Ile wynosi pierwiastek kwadratowy z liczby 121?;11;10;12;13
+61;Jak nazywa się figura, która ma pięć kątów?;Pentagon;Heksagon;Kwadrat;Oktagon
+62;Jak nazywa się liczba, przez którą dzielona jest inna liczba?;Dzielnik;Mianownik;Dzielna;Liczba pierwsza
+63;Ile wynosi suma kątów wewnętrznych czworokąta?;360;180;270;90
+64;Kto wynalazł żarówkę?;Thomas Edison;Nikola Tesla;Alexander Graham Bell;Guglielmo Marconi
+65;Jaki jest najpopularniejszy sport w Europie?;Piłka nożna;Koszykówka;Siatkówka;Hokej
+66;Jaki instrument jest charakterystyczny dla jazzu?;Saksofon;Skrzypce;Gitara;Flet
+67;Jak nazywa się największa wyspa na świecie?;Grenlandia;Borneo;Madagaskar;Nowa Gwinea
+68;Kto był pierwszym prezydentem USA?;George Washington;Thomas Jefferson;Abraham Lincoln;John Adams
+69;Które morze graniczy z Polską?;Bałtyckie;Czarne;Śródziemne;Karaibskie
+70;Które zwierzę nie jest ssakiem?;Rekin;Słoń;Kot;Pies
