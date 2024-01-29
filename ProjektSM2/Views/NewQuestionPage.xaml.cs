@@ -8,6 +8,8 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ProjektSM2.Models;
 using System.IO;
+using Xamarin.Forms.PlatformConfiguration;
+using Android.Content.Res;
 
 namespace ProjektSM2.Views
 {
@@ -17,7 +19,7 @@ namespace ProjektSM2.Views
 		public NewQuestionPage()
 		{
 			InitializeComponent();
-		
+
 		}
 
 		private async void Button_Clicked(object sender, EventArgs e)
@@ -34,37 +36,42 @@ namespace ProjektSM2.Views
 				});
 				questionEntry.Text = ansEntry.Text = inAns1Entry.Text = inAns2Entry.Text = inAns3Entry.Text = string.Empty;
 
+				//AddData();
+			}
+		}
+		private async void AddData()
+		{
+			AssetManager assetManager = Android.App.Application.Context.Assets;
 
-			}	
-			
-			string path = "~/danepytanie1.txt";
-			string[] lines = File.ReadAllLines(path);
-			foreach (var line in lines)
+			using (StreamReader streamReader = new StreamReader(assetManager.Open("danepytanie1.txt")))
 			{
-				string[] elements = line.Split(';');
-				if (elements.Length == 6)
+				string line;
+				while ((line = streamReader.ReadLine()) != null)
 				{
-
-					int id = Convert.ToInt32(elements[0]);
-					string question = elements[1];
-					string answer = elements[2];
-					string incorrectans1 = elements[3];
-					string incorrectans2 = elements[4];
-					string incorrectans3 = elements[5];
-
-
-					await App.Database.SaveWriteAsync(new WriteModel
+					string[] elements = line.Split(';');
+					if (elements.Length == 6)
 					{
-						Id = id,
-						Question = question,
-						Answer = answer,
-						Incorrectans1 = incorrectans1,
-						Incorrectans2 = incorrectans2,
-						Incorrectans3 = incorrectans3
-					});
+
+						int id = Convert.ToInt32(elements[0]);
+						string question = elements[1];
+						string answer = elements[2];
+						string incorrectans1 = elements[3];
+						string incorrectans2 = elements[4];
+						string incorrectans3 = elements[5];
+
+
+						await App.Database.SaveWriteAsync(new WriteModel
+						{
+							Id = id,
+							Question = question,
+							Answer = answer,
+							Incorrectans1 = incorrectans1,
+							Incorrectans2 = incorrectans2,
+							Incorrectans3 = incorrectans3
+						});
+					}
 				}
 			}
-
 		}
 	}
 }

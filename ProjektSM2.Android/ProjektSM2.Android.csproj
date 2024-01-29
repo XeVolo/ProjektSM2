@@ -96,5 +96,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\logo2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\danepytanie1.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
