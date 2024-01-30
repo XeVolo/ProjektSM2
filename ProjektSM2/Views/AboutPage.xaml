@@ -43,6 +43,10 @@
                         Clicked="OnNavigateToAddPageClicked"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" />
+                <Button Margin="0,10,0,0" Text="Pokaż liste pytań"
+                        Clicked="OnNavigateToItemsPageClicked"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
 
 
 
